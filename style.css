@@ -21,8 +21,31 @@ header img{
     height: auto;
 }
 
-.job-container{
+.filter-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border: 1px solid grey;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+
+.fct{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fct button{
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.job-container{
+ display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 85%;
